@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setup(
     name="mpesa_daraja",
-    version="0.0.22",
+    version="0.0.23",
     description="Mpesa B2C, C2B, STKPush Python(Flask & Django) library based on the new Api's https://developer.safaricom.co.ke",
     long_description=long_description,
     long_description_content_type="text/markdown",
