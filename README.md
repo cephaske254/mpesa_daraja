@@ -1,5 +1,4 @@
 # mpesa-daraja
-
 This is an unofficial wrapper providing convenient access to the Safaricom MPESA Daraja API for applications written in Python.
 
 
@@ -8,7 +7,6 @@ This is an unofficial wrapper providing convenient access to the Safaricom MPESA
 It has been tested with Python 3.6 and python 3.8
 
 ### Installation
-
 To install the library from Pypi:
 ``` bash
  pip install mpesa-py
@@ -27,7 +25,6 @@ python setup.py install
 ```
 
 ### Tests
-
 The library comes with simple integration tests with Safaricom's sandbox APIs. Due to factors beyond my control, the tests are structured to pass even when a specific Daraja API is under maintenance. To run the tests, simply execute pytest from the library's root directory:
 
 ``` bash
@@ -40,6 +37,7 @@ pytest
 from mpesa.api.<API> import <API Class>
 ```
 ***API***
+
 The following APIs are supported:
 -   transaction_status
 -   mpesa_express
@@ -51,6 +49,7 @@ The following APIs are supported:
 -   b2b
 
 ***API Class***
+
 The following are the corresponding API classes:
  - TransactionStatus
  - MpesaExpress
@@ -63,7 +62,6 @@ The following are the corresponding API classes:
 
 
 ### Documentation
-
 For more information about the modules and APIs, please see the [documentation](https://mpesa-py.readthedocs.io/).
 
 ----------
