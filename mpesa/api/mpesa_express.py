@@ -54,8 +54,8 @@ class MpesaExpress(MpesaBase):
             .replace(" ", "")
             .replace(":", "")
         )
-        password = "{0}{1}{2}".format(str(business_shortcode), str(passcode), time).encode()
-        encoded = base64.b64encode(password.decode())
+        password = "{0}{1}{2}".format(str(business_shortcode), str(passcode), time)
+        encoded = base64.b64encode(password.encode()).decode()
         payload = {
             "BusinessShortCode": business_shortcode,
             "Password": encoded,
@@ -107,8 +107,8 @@ class MpesaExpress(MpesaBase):
             .replace(" ", "")
             .replace(":", "")
         )
-        password = "{0}{1}{2}".format(str(business_shortcode), str(passcode), time).encode()
-        encoded = base64.b64encode(password.decode())
+        password = "{0}{1}{2}".format(str(business_shortcode), str(passcode), time)
+        encoded = base64.b64encode(password).decode()
         payload = {
             "BusinessShortCode": business_shortcode,
             "Password": encoded,
