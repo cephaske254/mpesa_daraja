@@ -65,4 +65,3 @@ The following are the corresponding API classes:
 For more information about the modules and APIs, please see the [documentation](https://mpesa-py.readthedocs.io/).
 
 ----------
-Forked from [Arlus/mpesa-py](https://github.com/arlus/mpesa-py)
