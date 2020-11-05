@@ -62,6 +62,6 @@ The following are the corresponding API classes:
 
 
 ### Documentation
-For more information about the modules and APIs, please see the [documentation](https://mpesa-py.readthedocs.io/).
+For more information about the modules and APIs, please see the [documentation](https://mpesa-py.readthedocs.io/) by [Arlus](https://github.com/arlus) .
 
 ----------
