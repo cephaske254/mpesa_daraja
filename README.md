@@ -9,7 +9,7 @@ It has been tested with Python 3.6 and python 3.8
 ### Installation
 To install the library from Pypi:
 ``` bash
- pip install mpesa-py
+ pip install mpesa-daraja
  ```
 
 
